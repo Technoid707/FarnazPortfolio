@@ -1,5 +1,11 @@
 /* font-family: "Playfair Display", serif; 
   font-family: "Poppins", sans-serif;*/
+:root{
+  --branding-color: pink;
+}
+*{
+  box-sizing: border-box;
+}
 
 body {
   width: 100%;
@@ -9,10 +15,15 @@ body {
   line-height: 160%;
 }
 
+h1, h2, h3, h4, h5, h6{
+  font-weight: bold;
+}
+
 h1 {
-  font-size: 4rem;
+  font-size: 6rem;
   font-family: "Playfair Display", serif;
   font-weight: bold;
+  line-height: 1.5;
 }
 h2 {
   font-size: 2.5rem;
@@ -35,4 +46,21 @@ h3 {
 
 p {
   font-family: "Poppins", sans-serif;
+}
+
+.btn-branding{
+
+}
+
+.btn-branding-outline{
+  border: 1px solid var(--branding-color);
+  border-radius:4px;
+  font-size: 18px;
+  line-height:30px;
+  padding: 15px 30px;
+  color: var(--branding-color);
+}
+
+.project-description{
+  padding: 100px 60px;
 }

@@ -1,0 +1,13 @@
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    h1{
+        font-size: 5rem;
+        
+    }
+
+    .project-description{
+        padding: 50px 60px;
+        text-align: left;
+      }
+    
+ }
