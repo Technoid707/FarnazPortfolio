@@ -1,0 +1,12 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    h1{
+        font-size: 2rem;
+    }
+
+    .project-description{
+        padding: 0;
+        text-align: center;
+      }
+
+}

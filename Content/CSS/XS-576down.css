@@ -1,0 +1,21 @@
+ /* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+    h1{
+        font-size:3.5rem;
+        line-height: 1.5;
+    }
+
+    h2{
+        font-size: 2rem;;
+    }
+    h3{
+        font-size: 1.3rem
+    }
+    .project-description{
+        padding: 0;
+        text-align: center;
+      }
+
+
+ }
